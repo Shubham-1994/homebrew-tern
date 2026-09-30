@@ -7,7 +7,7 @@ cask "tern-desktop" do
   desc "Lightweight IDE for running coding agents side by side"
   homepage "https://github.com/Shubham-1994/homebrew-tern"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Tern.app"
 
