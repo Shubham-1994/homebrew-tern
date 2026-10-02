@@ -1,28 +1,28 @@
 class Tern < Formula
   desc "Lightweight terminal-first IDE for running coding agents in parallel"
   homepage "https://github.com/Shubham-1994/homebrew-tern"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v0.4.0/tern-darwin-arm64"
-      sha256 "a3ed1b59516d26547374e70d62acb6ef84c4d997437b5e77b583afbe7ac16383"
+      url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v0.5.0/tern-darwin-arm64"
+      sha256 "a5d55349ef82fc8201bb3f54a94ab9b8271f21935c6034d49ce351ccf380d269"
     end
     on_intel do
-      url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v0.4.0/tern-darwin-amd64"
-      sha256 "42c4b1fd42c3bf15fe28902d36b0bc47d529dc6c0172726fd82d3062163aa5f4"
+      url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v0.5.0/tern-darwin-amd64"
+      sha256 "28bb14e33d64439d9903cf8a5aae29449995973234e99354eae3a65634b2e9c6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v0.4.0/tern-linux-arm64"
-      sha256 "8c00637c24f1343f1cc31822a5e49c7359a779d2d32c4841b6510d96516b6bba"
+      url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v0.5.0/tern-linux-arm64"
+      sha256 "93bf538165fc2229c0747f8c95b9608b360c1c3301ca1db0de5da48a8e6dd45e"
     end
     on_intel do
-      url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v0.4.0/tern-linux-amd64"
-      sha256 "832d97a7358b6446d67e6d46ef42879924cc8df60518df4e7c34576201c30da8"
+      url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v0.5.0/tern-linux-amd64"
+      sha256 "13618f2fc2dd54ce1d9f4c00f9c0fe86cf9d6d604304becb6bf81b0b15bf7e36"
     end
   end
 
