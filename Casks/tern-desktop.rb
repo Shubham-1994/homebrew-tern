@@ -1,6 +1,6 @@
 cask "tern-desktop" do
-  version "0.7.6"
-  sha256 "3d9a63ffb0f1cc3b217ab867b0d157a24652f5c8099c96f5bc9a1d9264aa4c3e"
+  version "0.7.7"
+  sha256 "5a1d742ccee34b756f66f9b9d99a08ce1ad41ae9fa83001b55bf0997aac98cdc"
 
   url "https://github.com/Shubham-1994/homebrew-tern/releases/download/v#{version}/Tern.dmg"
   name "Tern"
